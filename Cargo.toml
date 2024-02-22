@@ -1,0 +1,20 @@
+[package]
+name = "case-macro"
+version = "0.1.0"
+description = "Macros for changing the casing of things."
+edition = "2021"
+repository = "https://github.com/tecc/case-macro.git"
+license = "MIT"
+keywords = ["case", "casing"]
+categories = ["text-processing", "development-tools"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+convert_case = "0.6.0"
+proc-macro2 = "1.0.78"
+quote = "1.0.35"
+syn = "2.0.50"
+
+[lib]
+proc-macro = true
